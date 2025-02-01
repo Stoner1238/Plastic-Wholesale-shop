@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - Plastic Wholesale Shop</title>
+  
+  <!-- Link to Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  
+  <!-- Link to Cart Script -->
+  <script src="js/cart.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>Our Products</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product-list">
+      <div class="product">
+        <h2>Plastic Bucket</h2>
+        <p>Price: $5.00</p>
+        <button onclick="addToCart('Plastic Bucket', 5.00)">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <h2>Plastic Bowl</h2>
+        <p>Price: $3.50</p>
+        <button onclick="addToCart('Plastic Bowl', 3.50)">Add to Cart</button>
+      </div>
+
+      <div class="product">
+        <h2>Storage Box</h2>
+        <p>Price: $12.00</p>
+        <button onclick="addToCart('Storage Box', 12.00)">Add to Cart</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Dad's Plastic Wholesale Shop. All rights reserved.</p>
+  </footer>
+</body>
+</html>

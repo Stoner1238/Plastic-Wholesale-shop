@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #0078d7;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  background-color: #005a9c;
+  padding: 0.5em;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 2em;
+  text-align: center;
+  background-color: #e3e3e3;
+}
+
+footer {
+  background-color: #0078d7;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2em;
+}
+
+.product-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1em;
+  width: 300px;
+  text-align: center;
+  margin: 1em;
+}
+
+.product-item img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.product-item h3 {
+  margin: 0.5em 0;
+  color: #005a9c;
+}
+
+.product-item button {
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product-item button:hover {
+  background-color: #005a9c;
+}
+.cart-container {
+  padding: 2em;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2em 0;
+}
+
+table th, table td {
+  padding: 1em;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+table th {
+  background-color: #0078d7;
+  color: white;
+}
+
+.cart-summary {
+  margin: 2em 0;
+}
+
+.cart-summary h3 {
+  color: #005a9c;
+}
+
+button.checkout {
+  background-color: #0078d7;
+  color: white;
+  padding: 0.5em 2em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.checkout:hover {
+  background-color: #005a9c;
+}
+
+button.remove {
+  background-color: #ff4c4c;
+  color: white;
+  padding: 0.3em 0.8em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.remove:hover {
+  background-color: #ff1a1a;
+}
+.checkout-form {
+  padding: 2em;
+  max-width: 600px;
+  margin: auto;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.checkout-form h2 {
+  color: #005a9c;
+  text-align: center;
+}
+
+.checkout-form label {
+  display: block;
+  margin: 1em 0 0.5em;
+  color: #333;
+}
+
+.checkout-form input,
+.checkout-form textarea,
+.checkout-form select {
+  width: 100%;
+  padding: 0.8em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 1em;
+}
+
+.checkout-form button.submit-order {
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  padding: 0.8em 1.5em;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.checkout-form button.submit-order:hover {
+  background-color: #005a9c;
+}
+.contact-form {
+  padding: 2em;
+  max-width: 600px;
+  margin: auto;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.contact-form h2 {
+  color: #005a9c;
+  text-align: center;
+}
+
+.contact-form label {
+  display: block;
+  margin: 1em 0 0.5em;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.8em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 1em;
+}
+
+.contact-form button.submit-message {
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  padding: 0.8em 1.5em;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.contact-form button.submit-message:hover {
+  background-color: #005a9c;
+}
+.confirmation-message {
+  text-align: center;
+  padding: 4em 2em;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  max-width: 600px;
+  margin: 4em auto;
+  border-radius: 8px;
+}
+
+.confirmation-message h2 {
+  color: #28a745;
+}
+
+.confirmation-message p {
+  color: #333;
+  margin: 1em 0;
+}
+
+.home-button {
+  background-color: #0078d7;
+  color: white;
+  padding: 0.8em 2em;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.home-button:hover {
+  background-color: #005a9c;
+}

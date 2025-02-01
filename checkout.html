@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - Plastic Wholesale Shop</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  
+  <!-- Link to Cart Script -->
+  <script src="js/cart.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Checkout</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="checkout-form">
+      <h2>Billing Details</h2>
+      <form action="confirmation.html" method="GET">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="address">Shipping Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea>
+
+        <label for="payment">Payment Method:</label>
+        <select id="payment" name="payment" required>
+          <option value="card">Credit/Debit Card</option>
+          <option value="transfer">Bank Transfer</option>
+        </select>
+
+        <button type="submit" class="submit-order">Place Order</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Dad's Plastic Wholesale Shop. All rights reserved.</p>
+  </footer>
+</body>
+</html>
